@@ -145,7 +145,7 @@ Dependencies that are only needed for development of the package, e.g., test fra
 
 Type:  `array` of `string`
 
-For recipes that depend on a particular version of OS, list the appropriate OS types that are valid.  For example, for recipes that only work with APT package managers, ['ubuntu', 'debian'] might be appropriate.
+For recipes that depend on a particular version of OS, list the appropriate OS types that are valid.  For example, for recipes that only work with APT package managers, `['ubuntu', 'debian']` might be appropriate.
 
 ### resolutions (not supported as of 0.1.0, to be added in future releases)
 
