@@ -141,6 +141,11 @@ Same rules as `dependencies`.
 
 Dependencies that are only needed for development of the package, e.g., test framework or building documentation.
 
+### osVersions
+
+Type:  `array` of `string`
+
+For recipes that depend on a particular version of OS, list the appropriate OS types that are valid.  For example, for recipes that only work with APT package managers, ['ubuntu', 'debian'] might be appropriate.
 
 ### resolutions (not supported as of 0.1.0, to be added in future releases)
 
@@ -154,7 +159,7 @@ Type: `Boolean`
 
 If you set it to `true` it will publish to a private repository that is only accesible to those with permissions set on sherpa.io. This is a way to prevent accidental publication of private repositories.
 
-### private_data  (not supported as of 0.1.0, to be added in future releases)
+### privateData  (not supported as of 0.1.0, to be added in future releases)
 
 Type: `Object`
 
